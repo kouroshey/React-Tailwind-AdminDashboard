@@ -12,8 +12,8 @@ export default {
     extend: {
       colors: {
 
-        bgDark: "#363062",
-        bgLight: "#4D4C7D",
+        bgDark: "#0f172a",
+        bgLight: "#1e293b",
         orange: "#F99417",
         milky: "#F5F5F5",
 
