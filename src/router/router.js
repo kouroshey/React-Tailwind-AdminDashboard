@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
-import Error404 from "../../pages/Error404";
+import Error404 from "../pages/Error404";
 
 
 

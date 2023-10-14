@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
+import Navbar from './components/global/Navbar/Navbar';
 
 const App = () => {
     const [isDark, setIsDark] = useState(true);
@@ -10,16 +11,14 @@ const App = () => {
     useEffect(() => {
         if (isDark) {
             rootElem.className = 'dark'
-            console.log('theme is dark')
         } else {
             rootElem.className = 'light'
-            console.log('theme is light')
         }
     }, [isDark] )
     return (
-        <div className=''>
-            App
-        </div>
+        <main className='dark:bg-bgDark bg-milky text-bgDark dark:text-milky'>
+            <Navbar />
+        </main>
     )
 }
 
