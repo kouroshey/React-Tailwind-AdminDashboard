@@ -8,10 +8,10 @@ export default {
     extend: {
       colors: {
 
-        orange: "#4D4C7D",
-        bgDark: "",
-        bgLight: "",
-        milky: "",
+        bgDark: "#363062",
+        bgLight: "#4D4C7D",
+        orange: "#F99417",
+        milky: "#F5F5F5",
 
         error: "#C30000",
         "error-light": "#ED2E2E",
