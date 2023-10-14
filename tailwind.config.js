@@ -4,6 +4,10 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+
+// HANDLE DARK MODE 
+  darkMode: 'class',
+
   theme: {
     extend: {
       colors: {
@@ -52,6 +56,6 @@ export default {
       }
     },
   },
-  plugins: [],
+  plugins: []
 }
 
