@@ -1,9 +1,9 @@
 import NavButtons from "./content/NavButtons"
 import SearchBox from "./content/SearchBox"
 
-const Navbar = () => {
+const Navbar = ({darkModeTrigger}) => {
     return (
-        <nav className="flex justify-between container mx-auto">
+        <nav className="flex justify-between w-full mx-auto bg-milky dark:bg-bgDark border-b-2 items-center py-6 px-7 h-fit">
             {/* SEARCHBOX */}
             <div>
                 <SearchBox />
@@ -11,7 +11,7 @@ const Navbar = () => {
 
             {/* BUTTONS */}
             <div>
-                <NavButtons />
+                <NavButtons darkModeTrigger={darkModeTrigger} />
             </div>
         </nav>
     )

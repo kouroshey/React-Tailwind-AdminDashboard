@@ -5,6 +5,8 @@ const Input = ({type = 'text'}) => {
         <input
             className={`
             border
+            w-44
+            h-fit
             border-bgDark
             dark:bg-bgLight
             bg-transparent
@@ -14,7 +16,8 @@ const Input = ({type = 'text'}) => {
             px-4
             py-2
             rounded-md
-            placeholder:text-gray-4
+            placeholder:text-bgLight
+            dark:placeholder:text-gray-4
             `}
             type={`${type}`}
             placeholder='Search'
